@@ -1,15 +1,9 @@
-import type { Metadata } from "next";
+"use client"
 import { Inter } from "next/font/google";
-import "./globals.css";
 import { ThirdwebProvider } from "thirdweb/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Meme NFTs marketplace",
-  description:
-    "Starter template for using thirdweb SDK with Next.js App router",
-};
 
 export default function RootLayout({
   children,
